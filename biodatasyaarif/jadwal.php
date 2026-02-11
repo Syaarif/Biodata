@@ -2,6 +2,7 @@
 
 $nama_lengkap = "Muhammad Syaarif";
 $nama_panggilan = "Syaarif";
+$kelas = "X PPLG 1;
 
 $jam = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"];
 
@@ -470,7 +471,7 @@ $jadwal_piket = [
     <div class="container">
         <div class="page-header">
             <h1><i class="fas fa-calendar-check"></i> Jadwal Pelajaran & Piket</h1>
-            <p>Jadwal pelajaran mingguan dan pembagian piket untuk <?php echo $nama_lengkap; ?></p>
+            <p>Jadwal pelajaran dan pembagian piket <?php echo $kelas; ?></p>
         </div>
 
         <!-- JADWAL PELAJARAN -->
@@ -563,4 +564,5 @@ $jadwal_piket = [
         });
     </script>
 </body>
+
 </html>
